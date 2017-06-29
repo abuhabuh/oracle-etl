@@ -1,11 +1,11 @@
-= Overview =
+# Overview
 
 Python client for interfacing with Oracle database using cx_Oracle package
 
 
-= Setup =
+# Setup
 
-== Python ==
+## Python 
 
 1. create dir drivers/ and download and unzip Oracle Client normal and SDK packages into the drivers folder: drivers/libclntshcore.dylib.12.1
   * update env.sh to match the folder name of the drivers you downloaded
@@ -13,7 +13,7 @@ Python client for interfacing with Oracle database using cx_Oracle package
   * This is for cx_Oracle
 3. pip install -r requirements.txt
 
-== Oracle ==
+## Oracle
 
 Log into database and create user in correct pluggable database
 
